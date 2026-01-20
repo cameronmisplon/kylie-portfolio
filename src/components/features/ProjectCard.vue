@@ -7,7 +7,7 @@
       <img
         :src="project.image"
         :alt="project.title"
-        class="w-full h-full object-cover hover:scale-110 transition-transform duration-300"
+        class="w-full h-full object-contain hover:scale-110 transition-transform duration-300"
       />
     </div>
     <div class="p-6">

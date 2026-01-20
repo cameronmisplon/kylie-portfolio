@@ -1,13 +1,13 @@
 <template>
-  <section id="experience" class="py-20 bg-gray-800">
+  <section id="education" class="py-20 bg-gray-800">
     <div class="container mx-auto px-4">
-      <SectionTitle>Experience</SectionTitle>
-      
+      <SectionTitle>Education</SectionTitle>
+
       <div class="max-w-3xl mx-auto space-y-8">
-        <ExperienceItem
-          v-for="(exp, index) in experience"
+        <EducationItem
+          v-for="(item, index) in education"
           :key="index"
-          :experience="exp"
+          :education="item"
         />
       </div>
     </div>
@@ -16,10 +16,10 @@
 
 <script setup>
 import SectionTitle from '../ui/SectionTitle.vue'
-import ExperienceItem from '../features/ExperienceItem.vue'
+import EducationItem from '../features/EducationItem.vue'
 
 defineProps({
-  experience: {
+  education: {
     type: Array,
     required: true
   }

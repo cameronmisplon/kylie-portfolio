@@ -1,4 +1,4 @@
-export const experience = [
+export const education = [
   {
     company: 'Seren House Cottage School',
     role: 'IEB student',

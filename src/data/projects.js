@@ -11,58 +11,44 @@ import treesImage from '../assets/images/trees.jpg'
 export const projects = [
   {
     id: 7,
-    title: 'Dark Lamp',
+    title: 'The Light Within',
     category: 'Product Design',
-    description: 'Elegant Lighting',
+    description: 'Butterfly inspired stained glass lamp fixture',
     image: lampDarkImage
-  },
-  {
-    id: 1,
-    title: 'Art Project',
-    category: 'Creative Design',
-    description: 'Innovative Art Space',
-    image: artProjectImage
   },
   {
     id: 2,
     title: 'Bedroom Design',
-    category: 'Residential Design',
-    description: 'Modern Bedroom',
+    category: 'Residental design hand drawn',
+    description: 'Perspective view of butterfly lamp',
     image: bedroomImage
   },
   {
+    id: 1,
+    title: 'Feeling Within',
+    category: 'Version 1',
+    description: 'Mediums of tissue paper background texture, water colour and black fine liner',
+    image: artProjectImage
+  },
+  {
     id: 3,
-    title: 'Bee Protection',
+    title: 'Bee Protection Concept',
     category: 'Sustainable Design',
     description: 'Eco-Friendly Initiative',
     image: beeProtectionImage
   },
   {
-    id: 9,
-    title: 'Natural Elements',
-    category: 'Residential Design',
-    description: 'Bringing Nature Indoors',
-    image: treesImage
-  },
-  {
     id: 8,
-    title: 'Technical Drawing',
-    category: 'Technical Design',
-    description: 'Detailed Documentation',
+    title: 'Sectional Technical Drawing',
+    category: 'Hand Drawn Technical Design',
+    description: 'Scale 1:20',
     image: technicalDrawingImage
   },
   {
-    id: 5,
-    title: 'Flower Kit',
-    category: 'Residential Design',
-    description: 'Botanical Interior',
-    image: flowerKitImage
-  },
-  {
     id: 6,
-    title: 'Lamp Collection',
+    title: 'Feeling Within Architectual Drawing',
     category: 'Product Design',
-    description: 'Colorful Lighting',
+    description: 'Scale 1:1',
     image: lampColourImage
   },
   {

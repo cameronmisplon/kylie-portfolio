@@ -25,7 +25,7 @@
         @project-click="handleProjectClick"
       />
 
-      <ExperienceSection :experience="experience" />
+      <EducationSection :education="education" />
 
       <ContactSection @submit="handleContactSubmit" />
 
@@ -42,7 +42,7 @@
 import { ref } from 'vue'
 import { useScrollTo } from './composables/useScrollTo'
 import { projects } from './data/projects'
-import { experience } from './data/experience'
+import { education } from './data/education'
 import { navLinks } from './data/navigation'
 import { aboutData } from './data/about'
 import AppNavbar from './components/layout/AppNavbar.vue'
@@ -50,7 +50,7 @@ import AppFooter from './components/layout/AppFooter.vue'
 import HeroSection from './components/sections/HeroSection.vue'
 import AboutSection from './components/sections/AboutSection.vue'
 import ProjectsSection from './components/sections/ProjectsSection.vue'
-import ExperienceSection from './components/sections/ExperienceSection.vue'
+import EducationSection from './components/sections/EducationSection.vue'
 import ContactSection from './components/sections/ContactSection.vue'
 
 const { scrollTo } = useScrollTo()
