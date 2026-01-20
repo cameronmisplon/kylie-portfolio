@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-20 bg-gray-800">
+  <section id="about" class="py-20 bg-cv-sidebar rounded-3xl mx-4 my-4">
     <div class="container mx-auto px-4">
       <SectionTitle>About Me</SectionTitle>
       
@@ -13,7 +13,7 @@
             />
           </div>
           <div class="w-full md:w-2/3">
-            <h3 class="text-2xl font-semibold text-white mb-4">{{ name }}</h3>
+            <h3 class="text-2xl font-semibold text-cv-text mb-4">{{ name }}</h3>
             
             <AboutSubsection
               v-if="bio"

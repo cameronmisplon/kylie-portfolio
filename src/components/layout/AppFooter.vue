@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-black text-white py-8">
+  <footer class="bg-cv-primary text-white py-8">
     <div class="container mx-auto px-4 text-center">
       <div class="flex flex-wrap justify-center gap-4 mb-4">
         <NavLink
@@ -11,7 +11,7 @@
           {{ link.label }}
         </NavLink>
       </div>
-      <p class="text-gray-400 text-sm">
+      <p class="text-cv-accent text-sm">
         © {{ currentYear }} {{ copyrightName }}. All rights reserved.
       </p>
     </div>

@@ -30,14 +30,14 @@ const props = defineProps({
 defineEmits(['click'])
 
 const buttonClasses = computed(() => {
-  const baseClasses = 'px-6 py-3 rounded-lg font-semibold transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900'
+  const baseClasses = 'px-6 py-3 rounded-lg font-semibold transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-cv-bg'
   const variantClasses = {
-    primary: 'bg-white text-gray-900 hover:bg-gray-100 focus:ring-white',
-    secondary: 'bg-gray-700 text-white hover:bg-gray-600 focus:ring-gray-500',
-    outline: 'border-2 border-white text-white hover:bg-white hover:text-gray-900 focus:ring-white'
+    primary: 'bg-cv-primary text-white hover:bg-cv-primary/90 focus:ring-cv-primary',
+    secondary: 'bg-cv-accent text-cv-text hover:bg-cv-accent/80 focus:ring-cv-accent',
+    outline: 'border-2 border-cv-primary text-cv-primary hover:bg-cv-primary hover:text-white focus:ring-cv-primary'
   }
   const widthClass = props.fullWidth ? 'w-full' : ''
-  
+
   return `${baseClasses} ${variantClasses[props.variant]} ${widthClass}`
 })
 </script>
