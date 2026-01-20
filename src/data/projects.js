@@ -12,8 +12,8 @@ import simulationPdf from '../assets/documents/simulation.pdf'
 export const projects = [
   {
     id: 9,
-    title: 'Simulation Analysis',
-    category: 'Technical Document',
+    title: 'Simulated Office',
+    category: 'Community Pavillion',
     description: 'Detailed simulation report and analysis',
     type: 'pdf',
     file: simulationPdf
