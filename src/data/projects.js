@@ -68,9 +68,9 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Floor Plan',
-    category: 'Technical Design',
-    description: 'Precise Planning',
+    title: 'House Rose AutoCAD',
+    category: 'Mrs Rose Client Project',
+    description: 'House plan at Scale 1:50',
     image: floorPlanImage
   }
 ]
