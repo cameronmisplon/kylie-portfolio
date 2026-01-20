@@ -1,5 +1,5 @@
 <template>
-  <nav class="fixed top-0 w-full bg-gray-900/80 backdrop-blur-md z-50 border-b border-gray-800">
+  <nav class="fixed top-0 w-full bg-cv-primary/95 backdrop-blur-md z-50 border-b border-cv-primary">
     <div class="container mx-auto px-4 py-4">
       <div class="flex items-center justify-between">
         <div class="text-2xl font-bold text-white">{{ logo }}</div>

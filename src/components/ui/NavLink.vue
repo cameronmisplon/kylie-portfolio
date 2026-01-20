@@ -18,6 +18,6 @@ defineProps({
 
 defineEmits(['click'])
 
-const linkClasses = 'text-gray-300 hover:text-white transition'
+const linkClasses = 'text-cv-accent hover:text-white transition'
 </script>
 

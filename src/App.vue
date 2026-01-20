@@ -1,6 +1,6 @@
 <template>
-  <div class="dark">
-    <div class="min-h-screen bg-gray-900">
+  <div>
+    <div class="min-h-screen bg-cv-bg">
       <AppNavbar
         :logo="logo"
         :nav-links="navLinks"

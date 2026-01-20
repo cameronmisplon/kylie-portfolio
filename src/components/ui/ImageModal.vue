@@ -5,12 +5,12 @@
       class="fixed inset-0 z-50 flex items-center justify-center p-4"
       @click="handleBackgroundClick"
     >
-      <div class="absolute inset-0 bg-black bg-opacity-80"></div>
+      <div class="absolute inset-0 bg-cv-primary bg-opacity-90"></div>
 
       <div class="relative max-w-7xl max-h-screen w-full h-full flex items-center justify-center">
         <button
           @click="$emit('close')"
-          class="absolute top-4 right-4 text-white hover:text-gray-300 transition-colors z-10"
+          class="absolute top-4 right-4 text-white hover:text-cv-accent transition-colors z-10"
           aria-label="Close modal"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -25,10 +25,10 @@
           @click.stop
         />
 
-        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
+        <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-cv-primary to-transparent p-6">
           <h3 class="text-2xl font-semibold text-white mb-2">{{ project.title }}</h3>
-          <p class="text-gray-300 text-sm mb-1">{{ project.category }}</p>
-          <p class="text-gray-400 text-sm italic">{{ project.description }}</p>
+          <p class="text-cv-accent text-sm mb-1">{{ project.category }}</p>
+          <p class="text-cv-accent text-sm italic">{{ project.description }}</p>
         </div>
       </div>
     </div>

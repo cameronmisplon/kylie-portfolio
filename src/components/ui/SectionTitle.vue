@@ -33,7 +33,7 @@ const titleClasses = computed(() => {
     right: 'text-right'
   }
   
-  return `font-bold text-white mb-12 ${sizeClasses[props.size]} ${alignClasses[props.align]}`
+  return `font-bold text-cv-text mb-12 ${sizeClasses[props.size]} ${alignClasses[props.align]}`
 })
 </script>
 
