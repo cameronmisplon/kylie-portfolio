@@ -7,14 +7,30 @@ import lampColourImage from '../assets/images/lamp_colour.jpg'
 import lampDarkImage from '../assets/images/lamp_dark.jpg'
 import technicalDrawingImage from '../assets/images/technical_drawing.jpg'
 import treesImage from '../assets/images/trees.jpg'
+import simulationPdf from '../assets/documents/simulation.pdf'
 
 export const projects = [
+  {
+    id: 9,
+    title: 'Simulation Analysis',
+    category: 'Technical Document',
+    description: 'Detailed simulation report and analysis',
+    type: 'pdf',
+    file: simulationPdf
+  },
   {
     id: 7,
     title: 'The Light Within',
     category: 'Product Design',
     description: 'Butterfly inspired stained glass lamp fixture',
     image: lampDarkImage
+  },
+  {
+    id: 6,
+    title: 'Feeling Within Architectual Drawing',
+    category: 'Product Design',
+    description: 'Scale 1:1',
+    image: lampColourImage
   },
   {
     id: 2,
@@ -26,7 +42,7 @@ export const projects = [
   {
     id: 1,
     title: 'Feeling Within',
-    category: 'Version 1',
+    category: 'Grade 11 - 12 Hour Version 1',
     description: 'Mediums of tissue paper background texture, water colour and black fine liner',
     image: artProjectImage
   },
@@ -43,13 +59,6 @@ export const projects = [
     category: 'Hand Drawn Technical Design',
     description: 'Scale 1:20',
     image: technicalDrawingImage
-  },
-  {
-    id: 6,
-    title: 'Feeling Within Architectual Drawing',
-    category: 'Product Design',
-    description: 'Scale 1:1',
-    image: lampColourImage
   },
   {
     id: 4,

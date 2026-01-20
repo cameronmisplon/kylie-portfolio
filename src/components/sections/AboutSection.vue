@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="py-20 bg-gray-800">
     <div class="container mx-auto px-4">
-      <SectionTitle>About</SectionTitle>
+      <SectionTitle>About Me</SectionTitle>
       
       <div class="max-w-4xl mx-auto">
         <div class="flex flex-col md:flex-row gap-8 items-center mb-12">

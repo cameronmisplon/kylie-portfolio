@@ -2,7 +2,7 @@ export const education = [
   {
     company: 'Seren House Cottage School',
     role: 'IEB student',
-    period: '2020-2024',
+    period: '2020 - 2024',
     description: 'Achieved a bachelors degree pass for my IEB studies in Johannesburg, South Africa with a keen passion for successful future studies.'
   },
   {

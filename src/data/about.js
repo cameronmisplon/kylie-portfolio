@@ -1,15 +1,15 @@
 import kylieImage from '../assets/images/kylie.jpg'
 
 export const aboutData = {
-  name: 'Kylie',
+  name: '',
   image: kylieImage,
-  bio: 'I have a strong passion for architecture with a keen eye for detail and a love for creating beautiful, functional spaces. Specializing in residential and commercial design, I bring creativity and expertise to every project.',
+  bio: 'I am an aspiring architectural professional pursuing a Higher Certificate in Architectural Technology at AIE. With a background in hospitality and digital content management, I combine technical creativity with strong interpersonal skills',
   skills: [
-    'Cool as fuck',
-    'My best friend',
-    '3D Visualization',
-    'Technical Drawing',
-    'Project Management'
+    'Industrious',
+    'Detail Orientated',
+    'Artistic',
+    'Adobe Creative Suite',
+    'AutoCAD / Revit'
   ],
   location: 'Available for projects worldwide'
 }

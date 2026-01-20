@@ -34,6 +34,12 @@
         copyright-name="Kylie"
         @nav-click="handleNavClick"
       />
+
+      <ImageModal
+        :is-open="!!selectedProject"
+        :project="selectedProject"
+        @close="selectedProject = null"
+      />
     </div>
   </div>
 </template>
@@ -52,6 +58,7 @@ import AboutSection from './components/sections/AboutSection.vue'
 import ProjectsSection from './components/sections/ProjectsSection.vue'
 import EducationSection from './components/sections/EducationSection.vue'
 import ContactSection from './components/sections/ContactSection.vue'
+import ImageModal from './components/ui/ImageModal.vue'
 
 const { scrollTo } = useScrollTo()
 
@@ -69,9 +76,16 @@ const handleNavClick = (sectionId) => {
 }
 
 const handleProjectClick = (project) => {
-  selectedProject.value = project
-  // You can add modal or navigation logic here
-  console.log('Project clicked:', project)
+  if (project.type === 'pdf') {
+    // Trigger PDF download
+    const link = document.createElement('a')
+    link.href = project.file
+    link.download = `${project.title}.pdf`
+    link.click()
+  } else {
+    // Open image in modal
+    selectedProject.value = project
+  }
 }
 
 const handleContactSubmit = (formData) => {
