@@ -2,12 +2,11 @@ import artProjectImage from '../assets/images/art_project.jpg'
 import bedroomImage from '../assets/images/bedroom.jpg'
 import beeProtectionImage from '../assets/images/bee_protection.jpg'
 import floorPlanImage from '../assets/images/floor_plan.jpg'
-import flowerKitImage from '../assets/images/flower_kit.jpg'
 import lampColourImage from '../assets/images/lamp_colour.jpg'
 import lampDarkImage from '../assets/images/lamp_dark.jpg'
 import technicalDrawingImage from '../assets/images/technical_drawing.jpg'
-import treesImage from '../assets/images/trees.jpg'
 import simulationPdf from '../assets/documents/simulation.pdf'
+import floralPerceptionImage from '../assets/images/floral_perception.jpg'
 
 export const projects = [
   {
@@ -45,6 +44,13 @@ export const projects = [
     category: 'Grade 11 - 12 Hour Version 1',
     description: 'Mediums of tissue paper background texture, water colour and black fine liner',
     image: artProjectImage
+  },
+  {
+    id: 10,
+    title: 'Floral Perception',
+    category: 'Grade 12 - Truth vs Fiction Theme',
+    description: 'Mediums of collage, black fine liner and white marker on blue board',
+    image: floralPerceptionImage
   },
   {
     id: 3,
